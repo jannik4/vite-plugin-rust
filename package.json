@@ -1,0 +1,24 @@
+{
+  "name": "vite-plugin-rust",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/micromatch": "^4.0.2",
+    "@types/node": "^18.11.9",
+    "@types/which": "^2.0.1",
+    "typescript": "^4.8.4",
+    "vite": "^3.2.2"
+  },
+  "dependencies": {
+    "micromatch": "^4.0.5",
+    "which": "^3.0.0"
+  }
+}

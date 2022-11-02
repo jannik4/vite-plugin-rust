@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "target": "es2015",
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "declaration": true
+    },
+    "include": [
+        "index.ts"
+    ],
+}
